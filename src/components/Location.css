@@ -1,0 +1,106 @@
+.location {
+  background-color: #fff9f3;
+  padding: 6rem 2.5rem;
+}
+
+.location-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.location-label {
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #c8956c;
+  margin-bottom: 0.5rem;
+}
+
+.location-title {
+  font-family: 'Georgia', serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #2c1a0e;
+  margin: 0;
+}
+
+.location-content {
+  display: flex;
+  gap: 4rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: stretch;
+}
+
+.location-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.location-block h4 {
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #c8956c;
+  margin: 0 0 0.75rem 0;
+}
+
+.location-block p {
+  font-size: 1rem;
+  color: #5c4033;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.hours-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.hours-table td {
+  font-size: 0.95rem;
+  color: #5c4033;
+  padding: 0.4rem 0;
+  line-height: 1.6;
+}
+
+.hours-table td:last-child {
+  text-align: right;
+  color: #2c1a0e;
+  font-weight: 600;
+}
+
+.location-map {
+  flex: 1.2;
+  min-height: 400px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.location-map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .location-content {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .location-map {
+    min-height: 300px;
+  }
+
+  .location-map iframe {
+    min-height: 300px;
+  }
+
+  .location-title {
+    font-size: 2rem;
+  }
+}
