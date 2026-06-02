@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer-brand">
           <h3 className="footer-logo">Cozy Cafe</h3>
           <p className="footer-address">7113 N Western Ave, Chicago, IL 60645</p>
-          <p className="footer-hours">Mon-Fri: 9am - 4pm | Sun: 9am - 3pm</p>
+          <p className="footer-hours">Tues-Sat: 9am - 4pm | Sun: 9am - 3pm</p>
         </div>
 
         <div className="footer-links">
