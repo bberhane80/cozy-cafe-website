@@ -1,5 +1,7 @@
 # Cozy Cafe ☕
 
+<img width="2560" height="1600" alt="Screenshot 2026-06-08 at 12 39 08 PM" src="https://github.com/user-attachments/assets/5ec79efc-ff79-4cf8-b977-d5c3d14ae173" />
+
 A warm, responsive multi-page website for Cozy Cafe — a Black-owned coffee shop on Chicago's northside. Built with React and Vite.
 
 ## Live Site
